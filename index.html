@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finaluri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="startBtn"><button>Quiz-ის დაწყება</button></div>
+
+    <div class="quiz-container">
+      <header>
+        <div class="title">გამოვცადოთ შენი ცოდნა</div>
+        <div class="timer">
+          <div class="timeLeft">დრო:</div>
+          <div class="timerSecs">30</div>
+        </div>
+      </header>
+      <section>
+        <div class="currentQuestionText"></div>
+        <div class="options"></div>
+      </section>
+
+      <footer>
+        <div class="totalCount"></div>
+        <button class="nextQuestionBtn">შემდეგი</button>
+      </footer>
+    </div>
+
+    <div class="result-container">
+      <div class="icon"></div>
+      <div class="complete_text">შენ შეასრულე ქვიზი</div>
+      <div class="score"></div>
+      <div class="buttons">
+        <button class="restart">თავიდან დაწყება</button>
+        <button class="quit">გამოსვლა</button>
+      </div>
+    </div>
+
+    <script src="questions.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
